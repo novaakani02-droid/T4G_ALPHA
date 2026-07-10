@@ -28,3 +28,54 @@ body{
 .nav-right{
     display: flex;
 }
+.container{
+    width: 90%;
+    margin: 50px auto;
+
+    display: grid;
+    grid-template-columns: repeat(4,250px);
+    gap: 35px;
+}
+.card{
+    background-color: white;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    width: 250px;
+    height: 180px;
+
+}
+
+.card-header{
+    height: 100px;
+ 
+}
+.card-body p{
+    color: gray;
+}
+.card-body h3{
+    margin-bottom: 10px;
+}
+.card-body{
+    padding: 15px;
+  text-align: center;
+}
+.purple{
+    background: purple;
+}
+
+.cyan{
+    background: cyan;
+}
+.green{
+    background: green;
+}
+.orange{
+    background: orange;
+}
+.pink{
+    background: pink;
+}
+.red{
+    background: red;
+}
